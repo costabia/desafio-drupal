@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ node.title.value }}</title>
+</head>
+<body>
+    <h1>{{ node.title.value }}</h1>
+    <h4>Data do Evento: {{ node.field_data_do_evento.value|date('d/m/Y') }} às {{ node.field_data_do_evento.value|date('H:i') }}</h4>
+    <pre>{{ node.field_descricao_do_evento.value|raw }}</pre>
+  {% if node.field_quantidade_de_vagas.value > 0 %}
+    <h5>{{ node.field_quantidade_de_vagas.value }} vagas</h5>
+  {% else %}
+    <h1>Desculpe, não há mais vagas para este evento!</h1>
+  {% endif %}
+</body>
+</html>

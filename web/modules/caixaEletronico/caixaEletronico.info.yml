@@ -1,0 +1,4 @@
+name: 'Caixa Eletronico'
+type: module
+description: 'Formulário de realização de saque.'
+core_version_requirement: ^10

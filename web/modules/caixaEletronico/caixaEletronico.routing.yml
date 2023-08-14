@@ -1,0 +1,7 @@
+caixaEletronico.form:
+  path: '/caixaEletronico'
+  defaults:
+    _form: 'Drupal\caixaEletronico\Form\SaqueForm'
+    _title: 'Welcome to the User Registration Form.'
+  requirements:
+    _permission: 'access content'

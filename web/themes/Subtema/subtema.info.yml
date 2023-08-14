@@ -1,0 +1,5 @@
+name: 'subtema'
+type: theme
+description: 'Um subtema personalizado'
+core_version_requirement: ^10
+base theme: umami
